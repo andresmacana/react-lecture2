@@ -1,7 +1,10 @@
 function Header() {
   return (
     <header>
-      <h1>React Lecture 2</h1>
+      <h1>
+        <i className="bi bi-shop"></i> React Lecture 2
+      </h1>
+      <p>Ready to E-commerce?</p>
     </header>
   );
 }
