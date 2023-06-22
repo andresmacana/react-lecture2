@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Main from "./Main";
 import Aside from "./Aside";
 import Footer from "./Footer";
+import "./styles.css";
 
 function App() {
   return (
