@@ -6,7 +6,7 @@ import Aside from "./Aside";
 import Footer from "./Footer";
 import "./styles2.css";
 import Data from "./Data";
-import Hello from "./Hello";
+
 import myImage from "./hack1.jpg";
 
 const images = [
@@ -37,9 +37,9 @@ function App() {
       <Nav />
       <div className="main-content">
         <div className="columns-container">
-          <Main />
+          <Main appname={Data().name} />
           <Aside />
-          <Hello name="Joe" />
+
           <div className="carousel">
             <button onClick={handlePrevImage}>Prev</button>
             <img src={images[currentImageIndex]} alt="Carousel image" />
