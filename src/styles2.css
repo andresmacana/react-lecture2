@@ -24,8 +24,23 @@ body {
   align-items: center;
 }
 
-.carousel img {
+/* .carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* .carousel img {
   margin: 0 10px;
+} */
+
+.business-card {
+  margin: 0 20px;
+}
+
+.business-card img {
+  width: 80%;
+  height: auto;
 }
 
 header {
