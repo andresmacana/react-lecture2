@@ -6,7 +6,8 @@ import Aside from "./Aside";
 import Footer from "./Footer";
 import BusinessCard from "./BusinessCard"; // import the BusinessCard component
 import "./styles2.css";
-import Data from "./Data";
+/* import Data from "./Data"; */
+import BusinessCardList from "./BusinessCardList";
 
 const businessCards = [
   {
@@ -59,10 +60,9 @@ function App() {
       <Nav />
       <div className="main-content">
         <div className="columns-container">
-          <Main appname={Data().name} />
-          <Aside />
+          {/* <Main appname={Data().name} /> */}
+          {/* <Aside /> */}
 
-          {/* Render the BusinessCard components here */}
           <div className="business-cards">
             <BusinessCardContainer
               name="Jorge"
